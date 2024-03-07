@@ -32,8 +32,7 @@ Alternative model: Neural Network
 
 <img src="images/TensorFlow-Report.png" alt="Neural Network"/>
 
-
-Very similar to Gradient Boost, with a few of True Positives moved into False Positives. Also ran faster than Gradient Boost to arrive at the same resutls. 
+Overall accuracy is 1% higher than the Logistic Regression model. However, class 1 recall is at 82%. Very similar to a tuned Gradient Boosting model, but arrives at these results much faster.
 
 ## Important Features
 
