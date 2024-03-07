@@ -46,7 +46,7 @@ Using recursive feature elimination with cross-validation, these were the top 3 
 
 ## Anomaly Detection Models
 
-Built baseline Isolation Forest and SVM models that need tuning.
+Built baseline Isolation Forest and SVM models that need tuning. I suspect that my baseline SVM model is doing poorly because it is picking up a lot of False Positives similar to Isolation Forest.
 
 ## Next Steps
 
