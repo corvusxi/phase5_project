@@ -32,6 +32,9 @@ Alternative model: Neural Network
 
 <img src="images/TensorFlow-Report.png" alt="Neural Network"/>
 
+
+Very similar to Gradient Boost, with a few of True Positives moved into False Positives. Also ran faster than Gradient Boost to arrive at the same resutls. 
+
 ## Important Features
 
 Using recursive feature elimination with cross-validation, these were the top 3 important features for more analysis.
@@ -42,15 +45,15 @@ Using recursive feature elimination with cross-validation, these were the top 3 
 <li>V8</li>
 </ol>
 
-<img src="images/Features.jpg" alt="RFECV"/>
+<img src="images/Features.png" alt="RFECV"/>
 
 ## Anomaly Detection Models
 
-Built baseline Isolation Forest and SVM models that need tuning. I suspect that my baseline SVM model is doing poorly because it is picking up a lot of False Positives similar to Isolation Forest.
+Built baseline Isolation Forest and SVM models that need tuning. I suspect that my baseline OneClassSVM model is doing poorly because it is picking up a lot of False Positives similar to Isolation Forest.
 
 ## Next Steps
 
-Continue to tune both best predictive models to improve recall scores and improve anomaly detection models.
+Continue to tune both best predictive models to improve recall scores, and improve anomaly detection models.
 
 ## Sources
 
